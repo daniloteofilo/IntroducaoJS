@@ -1,4 +1,4 @@
-let valorAtualPrint = document.getElementsByClassName("valorAtual");
+let valorAtualPrint = document.getElementsByClassName("valorAtual")[0];
 let valorAtual = 0;
 
 function menosUm() {
@@ -10,4 +10,3 @@ function maisUm() {
 	valorAtual = valorAtual + 1;
 	valorAtualPrint.innerHTML = valorAtual;
 }
-
